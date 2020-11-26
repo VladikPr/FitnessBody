@@ -7,7 +7,7 @@ import togglePopUp from './modules/togglePopUp';
 import slider from './modules/slider';
 import sendForm from './modules/sendForm';
 import calculator from './modules/calculator';
-import jumpToAnchor from './modules/jumpToAnchor';
+import toTop from './modules/toTop';
 
 
 // Execute modules
@@ -31,5 +31,5 @@ window.addEventListener('DOMContentLoaded', ()=>{
     // Send Data (AJAX) via JSON
     sendForm();
     // Smooth back to page start
-    jumpToAnchor();
+    toTop();
 });
