@@ -7,17 +7,145 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./js/index.js":
 /*!*********************!*\
   !*** ./js/index.js ***!
   \*********************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements:  */
-/***/ (() => {
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("\n\n//# sourceURL=webpack://WebPack/./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_watchInputs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/watchInputs */ \"./js/modules/watchInputs.js\");\n/* harmony import */ var _modules_formValidation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/formValidation */ \"./js/modules/formValidation.js\");\n/* harmony import */ var _modules_dropDown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/dropDown */ \"./js/modules/dropDown.js\");\n/* harmony import */ var _modules_toggleMenu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/toggleMenu */ \"./js/modules/toggleMenu.js\");\n/* harmony import */ var _modules_togglePopUp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/togglePopUp */ \"./js/modules/togglePopUp.js\");\n/* harmony import */ var _modules_slider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/slider */ \"./js/modules/slider.js\");\n/* harmony import */ var _modules_sendForm__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/sendForm */ \"./js/modules/sendForm.js\");\n/* harmony import */ var _modules_calculator__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/calculator */ \"./js/modules/calculator.js\");\n/* harmony import */ var _modules_jumpToAnchor__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/jumpToAnchor */ \"./js/modules/jumpToAnchor.js\");\n// Import modules\n\n\n\n\n\n\n\n\n // Execute modules\n\nwindow.addEventListener('DOMContentLoaded', function () {\n  'use strict'; // Watch entered value\n\n  (0,_modules_watchInputs__WEBPACK_IMPORTED_MODULE_0__.default)(); // Validation for all forms\n  // Possible part of the sendForm in the future\n\n  (0,_modules_formValidation__WEBPACK_IMPORTED_MODULE_1__.default)(); // Select Fitness Club\n\n  (0,_modules_dropDown__WEBPACK_IMPORTED_MODULE_2__.default)(); // Menu\n\n  (0,_modules_toggleMenu__WEBPACK_IMPORTED_MODULE_3__.default)(); // Popup\n\n  (0,_modules_togglePopUp__WEBPACK_IMPORTED_MODULE_4__.default)(); // Slider\n\n  (0,_modules_slider__WEBPACK_IMPORTED_MODULE_5__.default)(); // Calculator\n\n  (0,_modules_calculator__WEBPACK_IMPORTED_MODULE_7__.default)(); // Send Data (AJAX) via JSON\n\n  (0,_modules_sendForm__WEBPACK_IMPORTED_MODULE_6__.default)(); // Smooth back to page start\n\n  (0,_modules_jumpToAnchor__WEBPACK_IMPORTED_MODULE_8__.default)();\n});\n\n//# sourceURL=webpack://WebPack/./js/index.js?");
+
+/***/ }),
+
+/***/ "./js/modules/calculator.js":
+/*!**********************************!*\
+  !*** ./js/modules/calculator.js ***!
+  \**********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar calculator = function calculator() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (calculator);\n\n//# sourceURL=webpack://WebPack/./js/modules/calculator.js?");
+
+/***/ }),
+
+/***/ "./js/modules/dropDown.js":
+/*!********************************!*\
+  !*** ./js/modules/dropDown.js ***!
+  \********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar dropDown = function dropDown() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (dropDown);\n\n//# sourceURL=webpack://WebPack/./js/modules/dropDown.js?");
+
+/***/ }),
+
+/***/ "./js/modules/formValidation.js":
+/*!**************************************!*\
+  !*** ./js/modules/formValidation.js ***!
+  \**************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar formValidation = function formValidation() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (formValidation);\n\n//# sourceURL=webpack://WebPack/./js/modules/formValidation.js?");
+
+/***/ }),
+
+/***/ "./js/modules/jumpToAnchor.js":
+/*!************************************!*\
+  !*** ./js/modules/jumpToAnchor.js ***!
+  \************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar jumpToAnchor = function jumpToAnchor() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (jumpToAnchor);\n\n//# sourceURL=webpack://WebPack/./js/modules/jumpToAnchor.js?");
+
+/***/ }),
+
+/***/ "./js/modules/sendForm.js":
+/*!********************************!*\
+  !*** ./js/modules/sendForm.js ***!
+  \********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar sendForm = function sendForm() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sendForm);\n\n//# sourceURL=webpack://WebPack/./js/modules/sendForm.js?");
+
+/***/ }),
+
+/***/ "./js/modules/slider.js":
+/*!******************************!*\
+  !*** ./js/modules/slider.js ***!
+  \******************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar slider = function slider() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (slider);\n\n//# sourceURL=webpack://WebPack/./js/modules/slider.js?");
+
+/***/ }),
+
+/***/ "./js/modules/toggleMenu.js":
+/*!**********************************!*\
+  !*** ./js/modules/toggleMenu.js ***!
+  \**********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar toggleMenu = function toggleMenu() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (toggleMenu);\n\n//# sourceURL=webpack://WebPack/./js/modules/toggleMenu.js?");
+
+/***/ }),
+
+/***/ "./js/modules/togglePopUp.js":
+/*!***********************************!*\
+  !*** ./js/modules/togglePopUp.js ***!
+  \***********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar togglePopUp = function togglePopUp() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (togglePopUp);\n\n//# sourceURL=webpack://WebPack/./js/modules/togglePopUp.js?");
+
+/***/ }),
+
+/***/ "./js/modules/watchInputs.js":
+/*!***********************************!*\
+  !*** ./js/modules/watchInputs.js ***!
+  \***********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar watchInputs = function watchInputs() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (watchInputs);\n\n//# sourceURL=webpack://WebPack/./js/modules/watchInputs.js?");
 
 /***/ })
 
@@ -59,6 +187,18 @@ eval("\n\n//# sourceURL=webpack://WebPack/./js/index.js?");
 /******/ 	__webpack_require__.i = [];
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/get javascript update chunk filename */
 /******/ 	(() => {
 /******/ 		// This function allow to reference all chunks
@@ -75,7 +215,7 @@ eval("\n\n//# sourceURL=webpack://WebPack/./js/index.js?");
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => "b29e1c0272719e91db03"
+/******/ 		__webpack_require__.h = () => "112d12d7aea669df70c7"
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -138,6 +278,17 @@ eval("\n\n//# sourceURL=webpack://WebPack/./js/index.js?");
 /******/ 			script.onerror = onScriptComplete.bind(null, script.onerror);
 /******/ 			script.onload = onScriptComplete.bind(null, script.onload);
 /******/ 			needAttach && document.head.appendChild(script);
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
 /******/ 	})();
 /******/ 	
