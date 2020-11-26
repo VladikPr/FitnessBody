@@ -19,7 +19,7 @@
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_watchInputs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/watchInputs */ \"./js/modules/watchInputs.js\");\n/* harmony import */ var _modules_formValidation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/formValidation */ \"./js/modules/formValidation.js\");\n/* harmony import */ var _modules_dropDown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/dropDown */ \"./js/modules/dropDown.js\");\n/* harmony import */ var _modules_toggleMenu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/toggleMenu */ \"./js/modules/toggleMenu.js\");\n/* harmony import */ var _modules_togglePopUp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/togglePopUp */ \"./js/modules/togglePopUp.js\");\n/* harmony import */ var _modules_slider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/slider */ \"./js/modules/slider.js\");\n/* harmony import */ var _modules_sendForm__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/sendForm */ \"./js/modules/sendForm.js\");\n/* harmony import */ var _modules_calculator__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/calculator */ \"./js/modules/calculator.js\");\n/* harmony import */ var _modules_jumpToAnchor__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/jumpToAnchor */ \"./js/modules/jumpToAnchor.js\");\n// Import modules\n\n\n\n\n\n\n\n\n // Execute modules\n\nwindow.addEventListener('DOMContentLoaded', function () {\n  'use strict'; // Watch entered value\n\n  (0,_modules_watchInputs__WEBPACK_IMPORTED_MODULE_0__.default)(); // Validation for all forms\n  // Possible part of the sendForm in the future\n\n  (0,_modules_formValidation__WEBPACK_IMPORTED_MODULE_1__.default)(); // Select Fitness Club\n\n  (0,_modules_dropDown__WEBPACK_IMPORTED_MODULE_2__.default)(); // Menu\n\n  (0,_modules_toggleMenu__WEBPACK_IMPORTED_MODULE_3__.default)(); // Popup\n\n  (0,_modules_togglePopUp__WEBPACK_IMPORTED_MODULE_4__.default)(); // Slider\n\n  (0,_modules_slider__WEBPACK_IMPORTED_MODULE_5__.default)(); // Calculator\n\n  (0,_modules_calculator__WEBPACK_IMPORTED_MODULE_7__.default)(); // Send Data (AJAX) via JSON\n\n  (0,_modules_sendForm__WEBPACK_IMPORTED_MODULE_6__.default)(); // Smooth back to page start\n\n  (0,_modules_jumpToAnchor__WEBPACK_IMPORTED_MODULE_8__.default)();\n});\n\n//# sourceURL=webpack://WebPack/./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_watchInputs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/watchInputs */ \"./js/modules/watchInputs.js\");\n/* harmony import */ var _modules_formValidation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/formValidation */ \"./js/modules/formValidation.js\");\n/* harmony import */ var _modules_dropDown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/dropDown */ \"./js/modules/dropDown.js\");\n/* harmony import */ var _modules_toggleMenu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/toggleMenu */ \"./js/modules/toggleMenu.js\");\n/* harmony import */ var _modules_togglePopUp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/togglePopUp */ \"./js/modules/togglePopUp.js\");\n/* harmony import */ var _modules_slider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/slider */ \"./js/modules/slider.js\");\n/* harmony import */ var _modules_sendForm__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/sendForm */ \"./js/modules/sendForm.js\");\n/* harmony import */ var _modules_calculator__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/calculator */ \"./js/modules/calculator.js\");\n/* harmony import */ var _modules_toTop__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/toTop */ \"./js/modules/toTop.js\");\n// Import modules\n\n\n\n\n\n\n\n\n // Execute modules\n\nwindow.addEventListener('DOMContentLoaded', function () {\n  'use strict'; // Watch entered value\n\n  (0,_modules_watchInputs__WEBPACK_IMPORTED_MODULE_0__.default)(); // Validation for all forms\n  // Possible part of the sendForm in the future\n\n  (0,_modules_formValidation__WEBPACK_IMPORTED_MODULE_1__.default)(); // Select Fitness Club\n\n  (0,_modules_dropDown__WEBPACK_IMPORTED_MODULE_2__.default)(); // Menu\n\n  (0,_modules_toggleMenu__WEBPACK_IMPORTED_MODULE_3__.default)(); // Popup\n\n  (0,_modules_togglePopUp__WEBPACK_IMPORTED_MODULE_4__.default)(); // Slider\n\n  (0,_modules_slider__WEBPACK_IMPORTED_MODULE_5__.default)(); // Calculator\n\n  (0,_modules_calculator__WEBPACK_IMPORTED_MODULE_7__.default)(); // Send Data (AJAX) via JSON\n\n  (0,_modules_sendForm__WEBPACK_IMPORTED_MODULE_6__.default)(); // Smooth back to page start\n\n  (0,_modules_toTop__WEBPACK_IMPORTED_MODULE_8__.default)();\n});\n\n//# sourceURL=webpack://WebPack/./js/index.js?");
 
 /***/ }),
 
@@ -47,7 +47,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar dropDown = function dropDown() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (dropDown);\n\n//# sourceURL=webpack://WebPack/./js/modules/dropDown.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar dropDown = function dropDown() {\n  var selectList = document.querySelector('.club-select');\n  var clubList = document.querySelector('.clubs-list ul');\n  selectList.addEventListener('click', function (e) {\n    var target = e.target;\n\n    if (target.closest('.club-select') && !target.matches('ul, li')) {\n      clubList.classList.toggle('deactivated');\n    }\n\n    if (target.matches('a')) {\n      clubList.classList.add('deactivated');\n    }\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (dropDown);\n\n//# sourceURL=webpack://WebPack/./js/modules/dropDown.js?");
 
 /***/ }),
 
@@ -62,20 +62,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar formValidation = function formValidation() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (formValidation);\n\n//# sourceURL=webpack://WebPack/./js/modules/formValidation.js?");
-
-/***/ }),
-
-/***/ "./js/modules/jumpToAnchor.js":
-/*!************************************!*\
-  !*** ./js/modules/jumpToAnchor.js ***!
-  \************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar jumpToAnchor = function jumpToAnchor() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (jumpToAnchor);\n\n//# sourceURL=webpack://WebPack/./js/modules/jumpToAnchor.js?");
 
 /***/ }),
 
@@ -107,6 +93,20 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./js/modules/toTop.js":
+/*!*****************************!*\
+  !*** ./js/modules/toTop.js ***!
+  \*****************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n\n\nvar toTop = function toTop() {\n  var start = document.body;\n  var arrow = document.getElementById('totop');\n  var headSlider = document.querySelector('.head-slider');\n  arrow.style.display = 'none';\n  document.addEventListener('scroll', function () {\n    var blockTopPosition = headSlider.getBoundingClientRect().top * -1;\n    var blockHeight = headSlider.offsetHeight;\n\n    if (blockTopPosition > blockHeight) {\n      arrow.style.display = '';\n    } else {\n      arrow.style.display = 'none';\n    }\n  });\n  arrow.addEventListener('click', function (e) {\n    var target = e.target;\n\n    if (target) {\n      e.preventDefault();\n      start.scrollIntoView({\n        behavior: \"smooth\"\n      });\n    }\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (toTop);\n\n//# sourceURL=webpack://WebPack/./js/modules/toTop.js?");
+
+/***/ }),
+
 /***/ "./js/modules/toggleMenu.js":
 /*!**********************************!*\
   !*** ./js/modules/toggleMenu.js ***!
@@ -117,7 +117,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar toggleMenu = function toggleMenu() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (toggleMenu);\n\n//# sourceURL=webpack://WebPack/./js/modules/toggleMenu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar toggleMenu = function toggleMenu() {\n  var menuButton = document.querySelector('.menu-button'),\n      menu = document.querySelector('.popup-menu'),\n      topMenu = document.querySelector('.top-menu'),\n      headMain = document.querySelector('.head-main');\n  menuButton.addEventListener('click', function (e) {\n    var target = e.target;\n\n    if (target.matches('img')) {\n      menu.style.display = \"flex\";\n    }\n  });\n\n  var goToSection = function goToSection(event) {\n    event.preventDefault();\n    var block = event.target.href.split(/#/)[1],\n        elem = document.getElementById(block);\n    elem.scrollIntoView({\n      behavior: \"smooth\"\n    });\n  };\n\n  menu.addEventListener('click', function (e) {\n    var target = e.target;\n\n    if (target.closest('.close-menu-btn')) {\n      menu.style.display = \"none\";\n    } else if (target.matches('a')) {\n      goToSection(e);\n      menu.style.display = \"none\";\n    }\n  });\n  topMenu.addEventListener('click', function (e) {\n    var target = e.target;\n\n    if (target.closest('.scroll')) {\n      goToSection(e);\n    }\n  });\n  document.addEventListener('scroll', function () {\n    var watch = menuButton.getBoundingClientRect().top * -1,\n        minHeight = headMain.offsetHeight,\n        scrollTop = document.documentElement.scrollTop;\n\n    if (watch > 0) {\n      topMenu.style.position = \"fixed\";\n    } else if (scrollTop < minHeight) {\n      topMenu.style.position = \"static\";\n    }\n  });\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (toggleMenu);\n\n//# sourceURL=webpack://WebPack/./js/modules/toggleMenu.js?");
 
 /***/ }),
 
@@ -131,7 +131,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar togglePopUp = function togglePopUp() {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (togglePopUp);\n\n//# sourceURL=webpack://WebPack/./js/modules/togglePopUp.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nvar togglePopUp = function togglePopUp() {\n  var targetModal = function targetModal(modalTrigger, modalSelector, modalClose, index) {\n    var trigger = document.querySelectorAll(modalTrigger)[index],\n        modal = document.getElementById(modalSelector);\n\n    if (trigger && modal) {\n      trigger.addEventListener('click', function (e) {\n        var target = e.target;\n\n        if (target) {\n          e.preventDefault();\n        }\n\n        if (modalTrigger === '.fixed-gift') {\n          document.body.firstElementChild.remove();\n        }\n\n        modal.style.display = \"block\";\n        document.body.style.overflow = \"hidden\";\n      });\n      modal.addEventListener('click', function (e) {\n        var target = e.target;\n\n        if (target.matches(\"\".concat(modalClose, \", .overlay, .close-btn\"))) {\n          modal.style.display = \"none\";\n        }\n      });\n    }\n  };\n\n  targetModal('.open-popup', 'free_visit_form', '.close_icon', 0);\n  targetModal('.callback-btn', 'callback_form', '.close_icon', 0);\n  targetModal('.fixed-gift', 'gift', '.close_icon', 0);\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (togglePopUp);\n\n//# sourceURL=webpack://WebPack/./js/modules/togglePopUp.js?");
 
 /***/ }),
 
@@ -215,7 +215,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => "112d12d7aea669df70c7"
+/******/ 		__webpack_require__.h = () => "218d24f9e989be143ec8"
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
