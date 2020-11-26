@@ -34,12 +34,10 @@ const toggleMenu = () => {
     topMenu.addEventListener('click', (e) => {
         const {target} = e;
         if(target.closest('.scroll')){
-            console.log(target);
             goToSection(e);
         }
     });
 
-    //menuButton.style.position = "fixed";
     document.addEventListener('scroll', () => {
         const watch = menuButton.getBoundingClientRect().top * (-1),
             minHeight = headMain.offsetHeight,
