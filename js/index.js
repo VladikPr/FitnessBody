@@ -4,6 +4,8 @@ import formValidation from './modules/formValidation';
 import dropDown from './modules/dropDown';
 import toggleMenu from './modules/toggleMenu';
 import togglePopUp from './modules/togglePopUp';
+import mainSlider from './modules/mainSlider';
+import sliderCarousel from './modules/sliderCarousel';
 import slider from './modules/slider';
 import sendForm from './modules/sendForm';
 import calculator from './modules/calculator';
@@ -11,7 +13,7 @@ import toTop from './modules/toTop';
 
 
 // Execute modules
-window.addEventListener('DOMContentLoaded', ()=>{
+window.addEventListener('DOMContentLoaded', () => {
     'use strict';
     // Watch entered value
     watchInputs();
@@ -24,6 +26,10 @@ window.addEventListener('DOMContentLoaded', ()=>{
     toggleMenu();
     // Popup
     togglePopUp();
+    // Slider header
+    mainSlider();
+    // Carousel and Galery
+    sliderCarousel();
     // Slider
     slider();
     // Calculator

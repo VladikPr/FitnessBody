@@ -1,15 +1,16 @@
 const dropDown = () => {
-    const selectList = document.querySelector('.club-select');
-    const clubList = document.querySelector('.clubs-list ul');
+    const headMain = document.querySelector('.header-main'),
+        clubList = document.querySelector('.clubs-list ul');
+    
 
-    selectList.addEventListener('click', (e) => {
+    headMain.addEventListener('click', (e) => {
         const {target} = e;
 
         if (target.closest('.club-select') && !target.matches('ul, li')) {
             clubList.classList.toggle('deactivated');
         }
 
-        if (target.matches('a')){
+        if (target.matches('a') || !target.closest('.club-select')){
             clubList.classList.add('deactivated');
         }
     });

@@ -1540,10 +1540,12 @@ nav.popup-menu .close-menu-btn img {
 }
 
 .services-slider {
+    position: relative;
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px
+    max-width: 1200px;
+    width: 90%;
 }
 
 .services-slider .slide {
@@ -1580,25 +1582,36 @@ nav.popup-menu .close-menu-btn img {
     top: 75px;
     margin-top: -18px;
     z-index: 100;
-    cursor: pointer
-}
-
-.services-slider .slider-arrow span {
+    cursor: pointer;
     display: block;
     width: 36px;
     height: 37px;
     background-color: #f4c71b;
     border-radius: 50%;
     text-align: center;
-    padding-top: 11px
+    padding-top: 10px
 }
 
+.services-slider .slider-arrow img{
+    height: 18px;
+    width: 18px;
+}
+
+
 .services-slider .slider-arrow.prev {
-    left: 2px
+    left: -10px;
 }
 
 .services-slider .slider-arrow.next {
-    right: 2px
+    right: -10px;
+}
+
+.services-slider .slider-arrow.prev img{
+    margin-left: -3px;
+}
+
+.services-slider .slider-arrow.next img{
+    margin-left: 3px
 }
 
 #gallery {
@@ -1610,6 +1623,7 @@ nav.popup-menu .close-menu-btn img {
 }
 
 #gallery .gallery-slider {
+    position: relative;
     padding-left: 75px;
     padding-right: 75px;
     max-width: 900px;
@@ -1619,7 +1633,8 @@ nav.popup-menu .close-menu-btn img {
 
 #gallery .gallery-slider .slide {
     margin: 0 auto !important;
-    width: 100%
+    width: 100%;
+    display: none;
 }
 
 #gallery .gallery-slider .slider-arrow {
@@ -1627,32 +1642,56 @@ nav.popup-menu .close-menu-btn img {
     top: 50%;
     margin-top: -18px;
     z-index: 100;
-    cursor: pointer
-}
-
-#gallery .gallery-slider .slider-arrow span {
+    cursor: pointer;
     display: block;
     width: 36px;
     height: 37px;
     background-color: #f4c71b;
     border-radius: 50%;
     text-align: center;
-    padding-top: 11px
+    padding-top: 9px
 }
+
 
 #gallery .gallery-slider .slider-arrow.prev {
     left: 0
+}
+
+#gallery .gallery-slider .slider-arrow.prev img{
+    margin-left: -2px;
 }
 
 #gallery .gallery-slider .slider-arrow.next {
     right: 0
 }
 
+#gallery .gallery-slider .slider-arrow.next img{
+    margin-left: 2px;
+}
+
 #gallery .gallery-slider .slider-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
     left: 50%;
-    margin-left: -65px;
+    margin-left: -75px;
     bottom: 5%
 }
+
+#gallery .gallery-slider .slider-dots .dot {
+    width: 30px;
+    height: 6px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: #f4c71b;
+    cursor: pointer;
+}
+
+#gallery .gallery-slider .slider-dots .active-dot {
+    background-color: white;
+}
+
 
 #cards {
     padding-bottom: 4rem
@@ -2259,15 +2298,6 @@ p.personal-data input[type=checkbox]:checked+label:before {
     margin-top: 30px
 }
 
-@media only screen and (max-width:1199px) {
-    .services-slider .slider-arrow.prev {
-        left: 25px
-    }
-
-    .services-slider .slider-arrow.next {
-        right: 20px
-    }
-}
 
 @media only screen and (max-width:1199px) {
     header .top-menu ul li a {
@@ -2369,13 +2399,6 @@ p.personal-data input[type=checkbox]:checked+label:before {
         justify-content: center
     }
 
-    .services-slider .slider-arrow.prev {
-        left: 3px
-    }
-
-    .services-slider .slider-arrow.next {
-        right: 3px
-    }
 }
 
 @media only screen and (max-width:880px) {
@@ -2472,7 +2495,6 @@ p.personal-data input[type=checkbox]:checked+label:before {
     }
 
     #gallery .gallery-slider .slider-dots {
-        background-color: rgba(79, 25, 52, .5);
         padding-top: 12px;
         padding-left: 5px;
         padding-right: 5px
