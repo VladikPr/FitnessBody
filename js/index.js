@@ -1,6 +1,5 @@
 // Import modules
 import watchInputs from './modules/watchInputs';
-import formValidation from './modules/formValidation';
 import dropDown from './modules/dropDown';
 import toggleMenu from './modules/toggleMenu';
 import togglePopUp from './modules/togglePopUp';
@@ -17,9 +16,6 @@ window.addEventListener('DOMContentLoaded', () => {
     'use strict';
     // Watch entered value
     watchInputs();
-    // Validation for all forms
-    // Possible part of the sendForm in the future
-    formValidation();
     // Select Fitness Club
     dropDown();
     // Menu

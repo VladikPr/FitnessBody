@@ -16,7 +16,7 @@ const sendForm = () => {
                 inputs.forEach(element => {
                     // check if type tel
                     if(element.value && element.type === 'tel'){
-                        const boolean = /^\+?\d+$/g.test(element.value);
+                        const boolean = /^\+?\d{10}$/g.test(element.value);
                         invalidFields.push(boolean);
                         if(!boolean){
                             alert('Введите правильный номер!');
@@ -113,6 +113,7 @@ const sendForm = () => {
                         })
                         .finally(()=>{
                             resetInputFields(formData);
+                            setTimeout(()=>{thanks.style.display = "none";},3000);
                         });
             }
         };
